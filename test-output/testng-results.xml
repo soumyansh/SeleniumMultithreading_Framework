@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="33106" started-at="2021-07-26T17:00:52Z" finished-at="2021-07-26T17:01:25Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="33106" started-at="2021-07-26T17:00:52Z" finished-at="2021-07-26T17:01:25Z">
+      <class name="tests.SampleTests">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.SampleTests@146ba0ac]" name="setUp" is-config="true" duration-ms="349" started-at="2021-07-26T17:00:52Z" finished-at="2021-07-26T17:00:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="two(java.util.Hashtable)[pri:0, instance:tests.SampleTests@146ba0ac]" name="two" duration-ms="16465" started-at="2021-07-26T17:00:53Z" data-provider="dp" finished-at="2021-07-26T17:01:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Fname=Soumya, Lname=Gupta}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- two -->
+        <test-method status="PASS" signature="one(java.util.Hashtable)[pri:0, instance:tests.SampleTests@146ba0ac]" name="one" duration-ms="16944" started-at="2021-07-26T17:00:53Z" data-provider="dp" finished-at="2021-07-26T17:01:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Fname=Soumyansh, Lname=Gupta}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- one -->
+        <test-method status="PASS" signature="two(java.util.Hashtable)[pri:0, instance:tests.SampleTests@146ba0ac]" name="two" duration-ms="14978" started-at="2021-07-26T17:01:09Z" data-provider="dp" finished-at="2021-07-26T17:01:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Fname=Hey, Lname=There}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- two -->
+        <test-method status="PASS" signature="one(java.util.Hashtable)[pri:0, instance:tests.SampleTests@146ba0ac]" name="one" duration-ms="15391" started-at="2021-07-26T17:01:10Z" data-provider="dp" finished-at="2021-07-26T17:01:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Fname=Hello, Lname=World}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- one -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:tests.SampleTests@146ba0ac]" name="afterSuite" is-config="true" duration-ms="457" started-at="2021-07-26T17:01:25Z" finished-at="2021-07-26T17:01:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- tests.SampleTests -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
