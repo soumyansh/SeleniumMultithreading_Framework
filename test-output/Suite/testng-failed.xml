@@ -8,9 +8,11 @@
     <classes>
       <class name="tests.SampleTests">
         <methods>
-          <include name="two" invocation-numbers="0"/>
+          <include name="five"/>
+          <include name="three"/>
           <include name="setUp"/>
           <include name="afterSuite"/>
+          <include name="four"/>
         </methods>
       </class> <!-- tests.SampleTests -->
     </classes>

@@ -1,61 +1,114 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="37771" started-at="2021-07-26T17:17:18Z" finished-at="2021-07-26T17:17:55Z">
+  <suite name="Suite" duration-ms="84108" started-at="2021-07-26T17:35:46Z" finished-at="2021-07-26T17:37:10Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="37771" started-at="2021-07-26T17:17:18Z" finished-at="2021-07-26T17:17:55Z">
+    <test name="Test" duration-ms="84108" started-at="2021-07-26T17:35:46Z" finished-at="2021-07-26T17:37:10Z">
       <class name="tests.SampleTests">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.SampleTests@146ba0ac]" name="setUp" is-config="true" duration-ms="286" started-at="2021-07-26T17:17:17Z" finished-at="2021-07-26T17:17:18Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.SampleTests@146ba0ac]" name="setUp" is-config="true" duration-ms="300" started-at="2021-07-26T17:35:46Z" finished-at="2021-07-26T17:35:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="one(java.util.Hashtable)[pri:0, instance:tests.SampleTests@146ba0ac]" name="one" duration-ms="18740" started-at="2021-07-26T17:17:18Z" data-provider="dp" finished-at="2021-07-26T17:17:37Z">
+        <test-method status="PASS" signature="four(java.lang.reflect.Method)[pri:0, instance:tests.SampleTests@146ba0ac]" name="four" duration-ms="20902" started-at="2021-07-26T17:35:46Z" finished-at="2021-07-26T17:36:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.SampleTests.four(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- four -->
+        <test-method status="PASS" signature="five(java.lang.reflect.Method)[pri:0, instance:tests.SampleTests@146ba0ac]" name="five" duration-ms="21604" started-at="2021-07-26T17:35:46Z" finished-at="2021-07-26T17:36:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.SampleTests.five(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- five -->
+        <test-method status="PASS" signature="one(java.util.Hashtable, java.lang.reflect.Method)[pri:0, instance:tests.SampleTests@146ba0ac]" name="one" duration-ms="19110" started-at="2021-07-26T17:35:47Z" data-provider="dp" finished-at="2021-07-26T17:36:06Z">
           <params>
             <param index="0">
               <value>
                 <![CDATA[{Fname=Soumyansh, Lname=Gupta}]]>
               </value>
             </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- one -->
-        <test-method status="PASS" signature="two(java.util.Hashtable)[pri:0, instance:tests.SampleTests@146ba0ac]" name="two" duration-ms="19249" started-at="2021-07-26T17:17:18Z" data-provider="dp" finished-at="2021-07-26T17:17:38Z">
-          <params>
-            <param index="0">
+            <param index="1">
               <value>
-                <![CDATA[{Fname=Soumya, Lname=Gupta}]]>
+                <![CDATA[public void tests.SampleTests.one(java.util.Hashtable,java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- two -->
-        <test-method status="PASS" signature="one(java.util.Hashtable)[pri:0, instance:tests.SampleTests@146ba0ac]" name="one" duration-ms="14856" started-at="2021-07-26T17:17:38Z" data-provider="dp" finished-at="2021-07-26T17:17:53Z">
+        </test-method> <!-- one -->
+        <test-method status="PASS" signature="one(java.util.Hashtable, java.lang.reflect.Method)[pri:0, instance:tests.SampleTests@146ba0ac]" name="one" duration-ms="29874" started-at="2021-07-26T17:36:07Z" data-provider="dp" finished-at="2021-07-26T17:36:37Z">
           <params>
             <param index="0">
               <value>
                 <![CDATA[{Fname=Hello, Lname=World}]]>
               </value>
             </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void tests.SampleTests.one(java.util.Hashtable,java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- one -->
-        <test-method status="PASS" signature="two(java.util.Hashtable)[pri:0, instance:tests.SampleTests@146ba0ac]" name="two" duration-ms="16265" started-at="2021-07-26T17:17:38Z" data-provider="dp" finished-at="2021-07-26T17:17:55Z">
+        <test-method status="PASS" signature="three(java.lang.reflect.Method)[pri:0, instance:tests.SampleTests@146ba0ac]" name="three" duration-ms="44840" started-at="2021-07-26T17:36:10Z" finished-at="2021-07-26T17:36:55Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{Fname=Hey, Lname=There}]]>
+                <![CDATA[public void tests.SampleTests.three(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- three -->
+        <test-method status="PASS" signature="two(java.util.Hashtable, java.lang.reflect.Method)[pri:0, instance:tests.SampleTests@146ba0ac]" name="two" duration-ms="44623" started-at="2021-07-26T17:36:11Z" data-provider="dp" finished-at="2021-07-26T17:36:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Fname=Soumya, Lname=Gupta}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void tests.SampleTests.two(java.util.Hashtable,java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- two -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:tests.SampleTests@146ba0ac]" name="afterSuite" is-config="true" duration-ms="431" started-at="2021-07-26T17:17:56Z" finished-at="2021-07-26T17:17:56Z">
+        <test-method status="PASS" signature="two(java.util.Hashtable, java.lang.reflect.Method)[pri:0, instance:tests.SampleTests@146ba0ac]" name="two" duration-ms="13084" started-at="2021-07-26T17:36:56Z" data-provider="dp" finished-at="2021-07-26T17:37:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Fname=Hey, Lname=There}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void tests.SampleTests.two(java.util.Hashtable,java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- two -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:tests.SampleTests@146ba0ac]" name="afterSuite" is-config="true" duration-ms="448" started-at="2021-07-26T17:37:10Z" finished-at="2021-07-26T17:37:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
