@@ -6,15 +6,13 @@
   </listeners>
   <test thread-count="2" name="Test(failed)" parallel="methods">
     <classes>
-      <class name="tests.SampleTests">
+      <class name="tests.Smoke">
         <methods>
-          <include name="five"/>
-          <include name="three"/>
           <include name="setUp"/>
           <include name="afterSuite"/>
-          <include name="four"/>
+          <include name="one"/>
         </methods>
-      </class> <!-- tests.SampleTests -->
+      </class> <!-- tests.Smoke -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

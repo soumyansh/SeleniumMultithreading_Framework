@@ -5,6 +5,7 @@ import java.util.Calendar;
 import java.util.Date;
 
 import org.apache.commons.io.FileUtils;
+import org.apache.poi.poifs.filesystem.DirectoryEntry;
 import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -22,6 +23,7 @@ import generic.Reporting;
 public class BaseTest extends Reporting{
 
 public String ScreenShotName;
+
 	
 	public void CaptureScreenshot() throws IOException {
 		
@@ -37,7 +39,14 @@ public String ScreenShotName;
 
 	}
 	@BeforeSuite
-	public void setUp() {
+	public void setUp() throws IOException {
+		try {
+			File file=new File(System.getProperty("user.dir")+"\\src\\test\\resources\\Screenshots");
+			FileUtils.cleanDirectory(file);
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} 
 		initializeReport();
 	}
 	
@@ -51,6 +60,7 @@ public String ScreenShotName;
 	}
 	
 	public WebDriver getDriver() {
+		DriverProvider.getInstance().getDriver().manage().window().maximize();
 		return DriverProvider.getInstance().getDriver();
 	}
 	

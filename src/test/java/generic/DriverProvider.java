@@ -27,6 +27,7 @@ public class DriverProvider {
 	};
 
 	public WebDriver getDriver() {
+		
 		return driver.get();
 	}
 

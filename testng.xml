@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="3" name="Suite" parallel="methods">
-	<listeners>
-		<listener class-name="listeners.CustomListener"></listener>
-	</listeners>
-
-	<test thread-count="3" name="Test" parallel="methods">
-
-		<classes>
-			<class name="tests.SampleTests" />
-		</classes>
-	</test> <!-- Test -->
+<suite thread-count="2" name="Suite" parallel="methods">
+<listeners>
+<listener class-name="listeners.CustomListener"></listener>
+</listeners>
+  <test thread-count="2" name="Test" parallel="methods">
+    <classes>
+      <class name="tests.Smoke"/>
+    </classes>
+  </test> <!-- Test -->
 </suite> <!-- Suite -->
